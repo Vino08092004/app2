@@ -78,7 +78,7 @@ function App() {
                 {products.length > 0 ? products.map(product => (
                     <div className="product-card" key={product.id}>
                         <img 
-                            src={product.image} 
+                            src="https://assets.ajio.com/medias/sys_master/root/20231016/L6FL/652c5051afa4cf41f5466bdf/-473Wx593H-466711316-blue-MODEL.jpg" 
                             alt={product.name} 
                             className="product-image" 
                             onError={(e) => { e.target.onerror = null; e.target.src = "https://via.placeholder.com/150"; }} // Fallback image
